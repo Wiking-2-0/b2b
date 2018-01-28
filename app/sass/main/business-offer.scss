@@ -1,0 +1,123 @@
+.business-offer{
+	text-align: center;
+	color: #787878;
+	font-weight: 300;
+	background-color: #fff;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	h2{
+		margin-bottom: 30px;
+	}
+	&-info{
+		margin-top: 40px;
+		text-align: center;
+		position: relative;
+		&-item{
+			margin-bottom: 40px;
+			cursor: pointer;
+			.svg-wrap{
+				position: relative;
+				display: -webkit-flex;
+				display: -moz-flex;
+				display: -ms-flex;
+				display: -o-flex;
+				display: flex;
+				justify-content: center;
+				-ms-align-items: center;
+				align-items: center;
+				width: 120px;
+				height: 120px;
+				margin: 0 auto;
+				margin-bottom: 20px;
+				background-color: #f8f7f7;
+				border-radius: 50%;
+				@include circle-animation;
+				svg{
+					width: 100%;
+					height: 100%;
+					padding: 20px;
+					fill: #a3a2a2;
+				}
+			}
+			span{
+				display: inline-block;
+				padding: 0 30px;
+				font-size: 19px;
+				font-weight: 300;
+			}
+			&:hover{
+				.svg-wrap{
+					background: #815cec;
+					background: -moz-linear-gradient(left, #815cec 0%, #6dc5f5 100%);
+					background: -webkit-linear-gradient(left, #815cec 0%,#6dc5f5 100%);
+					background: linear-gradient(to right, #815cec 0%,#6dc5f5 100%);
+					svg{
+						fill: #fff;
+					}
+				}
+				span{
+					color: #404040;
+					font-weight: 400;
+				}
+			}
+			@media only screen and (max-width: 992px) {
+				&:nth-child(2n){
+					float: right;
+				}
+			}
+			
+		}
+	}
+}
+.business-offer-popup{
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	top: -30px;
+	left: 5%;
+	right: 5%;
+/*	left: 50%;
+	margin-left: -240px;
+	width: 80%;*/
+	text-align: right;
+	padding-bottom: 15px;
+	z-index: 999;
+	-webkit-box-shadow: 0 0 40px 60px rgba(0,0,0,0.4);
+	box-shadow:  0 0 40px 60px rgba(0,0,0,0.4);
+	.popup-close{
+		position: absolute;
+		right: 20px;
+	}
+	a{
+		display: block;
+	}
+	.color-review{
+		position: static;
+		text-align: left;
+		color: #fff;
+		font-size: 24px;
+		padding: 20px;
+		width: auto;
+		height: auto;
+		padding-left: 20px;
+		border-radius: 0;
+		background: #815cec;
+		background: -moz-linear-gradient(left, #815cec 31%, #6dc5f5 100%);
+		background: -webkit-linear-gradient(left, #815cec 31%,#6dc5f5 100%);
+		background: linear-gradient(to right, #815cec 31%,#6dc5f5 100%);
+		&::after {
+			content: none;
+		}
+	}
+	p{
+		text-align: left;
+		color: #9c9c9c;
+		font-size: 16px;
+		line-height: 20px;
+		font-style: italic;
+		font-weight: 300;
+		padding-top: 20px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}

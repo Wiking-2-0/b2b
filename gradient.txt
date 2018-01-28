@@ -1,0 +1,12 @@
+["t=linear&d=right&r=on&sp=825bec_0_%25__5788f1_37_%25__57bcf4_81_%25__55bbf3_100_%25",
+"t=linear&d=bottom%20right&r=on&sp=fe9e96_0_%25__ac4f73_100_%25",
+"t=radial&s=farthest-corner&r=off&sh=ellipse&h=left&v=top&sp=676767_1.1_%25__878787_65.8_%25__676767_100_%25",
+"t=linear&d=bottom%20right&r=off&sp=f949b6_0_%25__ff8b8b_100_%25",
+"t=radial&s=farthest-corner&r=on&sh=ellipse&h=left&v=bottom&sp=f3ef15_0_%25__009885_100_%25",
+"t=linear&d=bottom&r=on&sp=e2e2e2_0_%25__dbdbdb_50_%25__d1d1d1_51_%25__fefefe_100_%25",
+"t=linear&d=bottom&r=on&sp=accdd4_0_%25__189ab1_50_%25__087b95_51_%25__70c0d1_100_%25",
+"t=linear&d=bottom&r=on&sp=48556c_0_%25__1b212b_50_%25__141922_51_%25__353b45_100_%25",
+"t=linear&d=bottom&r=on&sp=808080_0_%25__5b5b5b_65.6_%25__a9a9a9_100_%25",
+"t=linear&d=bottom%20right&r=on&sp=000000_0_%25__ffffff_100_%25",
+"t=radial&s=farthest-side&r=off&sh=circle&h=explicit&hv=395&hu=px&v=explicit&vv=483&vu=px&sp=2200cf_0_%25__ac00d7_74.2_%25__8206ff_83.3_%25",
+"t=radial&s=explicit&sv=10&su=em&r=on&sh=circle&h=left&v=top&sp=accdd4_0_%25__189ab1_50_%25__087b95_51_%25__70c0d1_100_%25"]

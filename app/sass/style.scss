@@ -1,0 +1,22 @@
+@import "fonts.scss";
+@import "variables.scss";
+@import "mixins.scss";
+
+@import "../libs/bootstrap/css/bootstrap.min.css";
+
+@import "main.scss";
+@import "main/popup.scss";
+@import "main/jquery.circliful.css";
+@import "header/header.scss";
+
+@import "main/business-offer.scss";
+@import "main/services.scss";
+@import "main/about-us.scss";
+@import "main/clients.scss";
+@import "main/efficiency.scss";
+@import "main/request.scss";
+@import "main/projects.scss";
+@import "main/work.scss";
+@import "main/review.scss";
+
+@import "footer/footer.scss";
